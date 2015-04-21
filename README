@@ -1,0 +1,22 @@
+A.
+00000000000000a1 t _GLOBAL__sub_I__Z7averagePdRd
+0000000000000061 t _Z41__static_initialization_and_destruction_0ii
+0000000000000000 T _Z7averagePdRd
+000000000000002e T _Z7averageif
+                 U _ZNSt8ios_base4InitC1Ev
+                 U _ZNSt8ios_base4InitD1Ev
+0000000000000000 b _ZStL8__ioinit
+                 U __cxa_atexit
+                 U __dso_handle
+0000000000000056 T main
+
+
+
+
+B.
+1 8
+4 8
+4 8
+8 8
+
+Although different type has different size,the pointer hasthe same size .Because no matter what kind of pointer they are all save the "address" but not value.
